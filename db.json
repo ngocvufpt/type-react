@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "title": "iphone 15",
+      "price": "1111",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/305658/iphone-15-pro-max-gold-thumbnew-600x600.jpg",
+      "description": "okela",
+      "category": "iphone",
+      "id": 6
+    },
+    {
+      "title": "iPhone ",
+      "price": "100",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/223602/iphone-13-xanh-la-thumb-new-600x600.jpg",
+      "description": "okela",
+      "category": "xiaomi",
+      "id": 8
+    },
+    {
+      "title": "san pham moi",
+      "price": "1111",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/223602/iphone-13-xanh-la-thumb-new-600x600.jpg",
+      "description": "okela",
+      "category": "danh muc",
+      "id": 9
+    },
+    {
+      "title": "iphone 15",
+      "price": "1000",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/327372/samsung-galaxy-m55-5g-black-thumb-600x600.jpg",
+      "description": "mota",
+      "category": "samsung",
+      "id": 10
+    }
+  ],
+  "category": [
+    {
+      "name": "danh muc",
+      "image": "https://www.thegioididong.com/laptop/msi-modern-15-b13m-i5-438vn?utm_flashsale=1",
+      "id": 1
+    },
+    {
+      "name": "iphone",
+      "image": "hinh anh",
+      "id": 2
+    },
+    {
+      "name": "samsung",
+      "image": "hinhanh",
+      "id": 3
+    },
+    {
+      "name": "xiaomi",
+      "image": "aa",
+      "id": 4
+    }
+  ]
+}

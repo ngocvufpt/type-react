@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.top-bar {
+  /* background-color: #75b84b;*/
+  background-image: linear-gradient(to right, #4e7c32, #828d7b);
+}
+hr {
+  color: white;
+  margin-top: 0;
+}
+.app-footer {
+  background-color: #053d29; /* Dark background color */
+  color: white; /* White text color */
+  /* Bottom padding */
+}
+.nav.justify-content-center {
+  font-size: 13px;
+}
+.icon {
+  margin-right: 10px;
+}
+.col-6.images {
+  text-align: center;
+}
+.thumbnail {
+  width: 80px;
+}
+
+.price {
+  font-size: 30px;
+  align-items: center;
+}
+
+.price p {
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.discount {
+  background-color: #ffcc00;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: red;
+  font-size: 15px;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100px;
+}
+.col-6.quanti {
+  width: 150px;
+}
+.quantity-btn {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quantity-input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 10px;
+}
+
+.add-to-cart {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-to-cart:hover {
+  background-color: #45a049;
+}
+.main-image {
+  height: 250px;
+}
+.thumbnail {
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.thumbnail:hover {
+  border-color: #4caf50;
+}
+.category {
+  color: #45a049;
+}
+.category-title {
+  color: #45a049;
+  font-size: 30px;
+  font-weight: bold;
+}
+.description {
+  width: 900px;
+  line-height: 2;
+}
+.product-image img {
+  /* max-width: 100%; */
+  max-width: 200px;
+  height: auto;
+  margin-left: 1-0px;
+}
+
+.review-summary {
+  text-align: center;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.stars {
+  font-size: 24px;
+  color: #ffd700;
+}
+
+.rating-value {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #4caf50;
+}
+
+.review-count {
+  color: #666;
+}
+
+.rating-bar {
+  margin-bottom: 20px;
+}
+
+.rating-level {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.rating-level span {
+  width: 30px;
+  text-align: left;
+}
+
+.bar {
+  width: 80%;
+  height: 10px;
+  background-color: #ddd;
+  margin: 0 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.fill {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 5px;
+}
+.write-review {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.write-review:hover {
+  background-color: #45a049;
+}
+.review-text {
+  width: 500px;
+}
+.see-all {
+  display: block;
+  margin-left: 550px;
+  margin-bottom: 10px;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  width: 80px;
+}
+
+.see-all:hover {
+  background-color: #45a049;
+}
+.review-author {
+  font-size: 20px;
+  color: #45a049;
+}
+.minus-btn {
+  border-radius: 5px 0 0 5px;
+}
+.plus-btn {
+  border-radius: 0px 5px 5px 0px;
+}
+.soluong {
+  position: absolute;
+  left: 620px;
+  top: 395px;
+  display: flex;
+
+  button {
+    width: 45px;
+    height: 40px;
+    outline: none;
+    background: none;
+    border: 1px solid #ececec;
+    cursor: pointer;
+    background-color: rgb(197, 228, 199);
+    font-size: 1.8vw;
+  }
+  input {
+    font-size: 1.5vw;
+    width: 45px;
+    text-align: center;
+    border: 1px solid #ececec;
+  }
+  button:hover {
+    background-color: #ececec;
+  }
+}
